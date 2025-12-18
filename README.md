@@ -20,7 +20,7 @@ The Kraken2 database PlusPF is needed. For HiPerGator users, downloading is not 
 
 ## Workflow
 ```mermaid
-%%{ init: { 'gitGraph': { 'mainBranchName': 'Daytona_HAV' } } }%%
+%%{ init: { 'gitGraph': { 'mainBranchName': 'Daytona_HAV_VPB' } } }%%
 %%{init: { 'themeVariables': { 'commitLabelFontSize': '20px' } } }%%
 %%{init: { 'themeVariables': { 'fontSize': '24px' } } }%%
 gitGraph       
@@ -32,7 +32,7 @@ gitGraph
        commit id: "bbtools"
        commit id: "multiqc"
 
-       checkout Daytona_HAV
+       checkout Daytona_HAV_VPB
        merge QC
 
        commit id: "SNP calling"
@@ -41,7 +41,7 @@ gitGraph
        commit id: "bwa"
        commit id: "samtools"
        commit id: "ivar"
-       checkout Daytona_HAV
+       checkout Daytona_HAV_VPB
        merge SNP_calling 
        
        commit id: "Consensus"
@@ -51,7 +51,7 @@ gitGraph
        commit id:"bwa for extract reads"
        commit id:"samtools for extract reads"
        commit id:"ivar for extract reads"
-       checkout Daytona_HAV
+       checkout Daytona_HAV_VPB
        merge Consensus
 
        commit id: "phylogeny"
@@ -61,7 +61,7 @@ gitGraph
        commit id: "snp-sites with 30 references"
        commit id: "iqtree with 30 references"
        commit id: "phytreeviz with 30 references"
-       checkout Daytona_HAV
+       checkout Daytona_HAV_VPB
        merge Phylogeny
        
     
