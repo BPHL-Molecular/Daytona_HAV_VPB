@@ -107,11 +107,11 @@ Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it 
 
 ### 3. Phylogenetic tree 
 
-For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree.      
+For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree. According to the phylogenetic tree, the genotypes of the test samples can be identified.       
 
 <img width="2366" height="2349" alt="hav tree" src="https://github.com/user-attachments/assets/3ea89158-7ac4-49ad-9fdb-ef469d9f4a34" />
 
-According to the phylogeny of the test samples and references, the genotypes of the test samples can be identified.     
+   
 
 ## Test data
 Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To use them, please copy them to the directory .../fastqs/hav/.    
