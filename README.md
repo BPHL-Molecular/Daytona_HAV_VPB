@@ -88,7 +88,7 @@ gitGraph
                       
 3. Get into the top directory of the pipeline and then run the following command.              
 ```bash
-sbatch Daytona_HAV.sh   # generate phylogenetic tree
+sbatch Daytona_HAV_VPB.sh   # generate phylogenetic tree
 ```       
 ## Main output
 ### 1. HAV reads detection      
