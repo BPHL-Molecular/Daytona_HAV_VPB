@@ -107,7 +107,7 @@ Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it 
 
 ### 3. Phylogeny and genotype
 
-For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree. According to the phylogenetic tree, the genotypes of the test samples can be identified.       
+For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree. According to the phylogenetic tree, the genotypes of the test samples can be identified. For example, the labels enclosed in red boxes in the image below are test samples. Based on phylogenetic inference, their genotypes should be IA.       
 
 
    <img width="1722" height="2475" alt="HAV-phy-genotype" src="https://github.com/user-attachments/assets/cdf5f947-ff9d-45bb-9390-a6e7a13caadb" />
