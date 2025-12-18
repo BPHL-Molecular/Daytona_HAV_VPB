@@ -105,7 +105,7 @@ The second column of the above table indicates that 123349 reads 93.58%) in the 
 
 Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
 
-### 3. Phylogenetic tree 
+### 3. Phylogenetic tree and genotype
 
 For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree. According to the phylogenetic tree, the genotypes of the test samples can be identified.       
 
