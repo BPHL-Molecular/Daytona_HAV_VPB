@@ -57,10 +57,10 @@ gitGraph
        commit id: "phylogeny"
        branch Phylogeny
        checkout Phylogeny
-       commit id: "mafft with 17 references"
-       commit id: "snp-sites with 17 references"
-       commit id: "iqtree with 17 references"
-       commit id: "phytreeviz with 17 references"
+       commit id: "mafft with 30 references"
+       commit id: "snp-sites with 30 references"
+       commit id: "iqtree with 30 references"
+       commit id: "phytreeviz with 30 references"
        checkout Daytona_HCV
        merge Phylogeny
        
