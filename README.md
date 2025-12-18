@@ -1,9 +1,10 @@
 # Daytona_HAV_VPB
-A pipeline for comprehensive sequence analyses of Hepatitis A Virus (HAV) based on VP1-P2B junction region.
-# Daytona_HAV
-## Introduction
 
-This pipeline can perform species detection and phylogeny analysis of Heptatits A virus (HAV). Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 17 HAV samples from NCBI are used as references to analyze phylogenetic relationship of the test samples.
+## Introduction
+A pipeline for comprehensive sequence analyses of Hepatitis A Virus (HAV) based on VP1-P2B junction region. The pipeline can perform species detection, SNP calling, and genotyping based on phylogeny of HAV. Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 30 HAV genotype samples from Doyle's paper (https://doi.org/10.1093/infdis/jiaf127) are used as references to analyze phylogenetic relationship and genotype of the test samples.
+
+### Daytona_HAV vs Daytona_HAV_VPB
+Daytona_HAV can be used to analyze any HAV sequencing data, while Daytona_HAV_VPB can only be used to analyze the data from VP1-P2B junction region sequencing.
 
 ## Prerequisites
 Nextflow is needed. The details of installation can be found at https://github.com/nextflow-io/nextflow. For HiPerGator users, its installation is not needed. 
