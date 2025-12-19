@@ -1,8 +1,7 @@
 # Daytona_HAV_VPB
 
 ## Introduction
-A pipeline for comprehensive sequence analyses of Hepatitis A Virus (HAV) based on VP1-P2B junction region. The pipeline can perform species detection, SNP calling, and genotyping based on phylogeny. Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 30 HAV genotype samples from Doyle's paper (https://doi.org/10.1093/infdis/jiaf127) are used as references to analyze phylogenetic relationship and genotype of the test samples.
-
+A pipeline for comprehensive sequence analyses of Hepatitis A Virus (HAV) based on VP1-P2B junction region. The pipeline can perform species detection, mutation identification, and genotyping based on phylogeny. Illumina paired-end sequencing data are required for the pipeline. 1773 VP1-P2B region sequences from all 7 HAV genotypes (IA, IB,IC, IIA, IIB, IIIA, IIIB) are used as reference to build the phylogeny of the test samples.
 ### Daytona_HAV vs Daytona_HAV_VPB
 Daytona_HAV can be used to analyze any HAV sequencing data, while Daytona_HAV_VPB can only be used to analyze the data from VP1-P2B junction region sequencing.
 
@@ -17,6 +16,7 @@ Python3 is needed. The packages "pandas" and "biopython" should be installed by 
 
 The Kraken2 database PlusPF is needed. For HiPerGator users, downloading is not needed. It has been downloaded and configured in the pipeline.
 
+Nextclade CLI is needed. The details of installation can be found at https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/installation/index.html .  For HiPerGator users, the installation is not needed.
 
 ## Workflow
 ```mermaid
@@ -57,10 +57,8 @@ gitGraph
        commit id: "phylogeny"
        branch Phylogeny
        checkout Phylogeny
-       commit id: "mafft with 30 references"
-       commit id: "snp-sites with 30 references"
-       commit id: "iqtree with 30 references"
-       commit id: "phytreeviz with 30 references"
+       commit id: "nextclade with 1773 references"
+       commit id: "phytreeviz with 1773 references"
        checkout Daytona_HAV_VPB
        merge Phylogeny
        
@@ -88,7 +86,7 @@ gitGraph
                       
 3. Get into the top directory of the pipeline and then run the following command.              
 ```bash
-sbatch Daytona_HAV_VPB.sh   # generate phylogenetic tree
+sbatch Daytona_HAV_VPB_NXC.sh   # generate phylogenetic tree
 ```       
 ## Main output
 ### 1. HAV reads detection      
@@ -105,9 +103,16 @@ The second column of the above table indicates that 123349 reads 93.58%) in the 
 
 Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
 
-### 3. Phylogeny and genotype
+### 3. Genotype and mutations
+The outputfile named as genotype_mutation.csv shows the HAV subtype and VP1-P2B mutaiton information of each test sample. These information is generated based on alignment and phylogeny of the test samples and the 1773 HAV subtype references. 
+    
 
-For the phylogenetic tree, the test samples will be compared with 30 HAV genotype references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree. According to the phylogenetic tree, the genotypes of the test samples can be identified. For example, the labels enclosed in red boxes in the image below are test samples. According to phylogenetic inference, their subgenotypes should be IA.       
+
+
+
+### 4. Phylogeny and genotype
+
+The phylogenetic tree of the test samples and 1773 HAV subtype references are generated in Auspice JSON v2 format and Newick format. For vivid visual effects and interaction with the tree diagram, you may visualize the tree files online in auspice.us (https://auspice.us/). Also, two tree diagrams in SVG and PDF formats are generated for convenience.
 
 
    <img width="1722" height="2475" alt="HAV-phy-genotype" src="https://github.com/user-attachments/assets/cdf5f947-ff9d-45bb-9390-a6e7a13caadb" />
