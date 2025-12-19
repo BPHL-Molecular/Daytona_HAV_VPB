@@ -108,6 +108,7 @@ The outputfile named as genotype_mutation.csv shows the HAV subtype and VP1-P2B 
     
 
 
+<img width="1579" height="99" alt="Screenshot 2025-12-19 162851" src="https://github.com/user-attachments/assets/45dc3d4c-5c51-41a2-b24c-5734e56453ed" />
 
 
 ### 4. Phylogeny and genotype
