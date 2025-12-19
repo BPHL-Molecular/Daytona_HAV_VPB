@@ -104,8 +104,7 @@ The second column of the above table indicates that 123349 reads 93.58%) in the 
 Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
 
 ### 3. Genotype and mutations
-The outputfile named as genotype_mutation.csv shows the HAV subtype and VP1-P2B mutaiton information of each test sample. These information is generated based on alignment and phylogeny of the test samples and the 1773 HAV subtype references. 
-    
+The outputfile named as genotype_mutation.csv shows the HAV subtype and VP1-P2B mutaiton information of each test sample. These information is generated based on alignment and phylogeny of the test samples and the 1773 HAV subtype references. For example, the "clade" column represents the subtype of each test sample in the table below.  
 
 
 <img width="1579" height="99" alt="Screenshot 2025-12-19 162851" src="https://github.com/user-attachments/assets/45dc3d4c-5c51-41a2-b24c-5734e56453ed" />
