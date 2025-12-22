@@ -121,7 +121,7 @@ The phylogenetic tree of the test samples and 1773 HAV subtype references are ge
 
 ## Test data
 Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To use them, please copy them to the directory .../fastqs/hav/.    
-Also, the results of these test data can be found in in /blue/bphl-florida/share/Daytona_HAV_test_sample/output-20251009215948.
+
 
 ## Contact
 If you want to report bugs, suggest enhancements, discuss ideas related to the project, please use the repository's "Issues" tab in GitHub.
