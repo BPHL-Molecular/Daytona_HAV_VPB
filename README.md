@@ -82,7 +82,7 @@ gitGraph
 
 <mark>Note:  ***Do not place fastq data in any location other than the fastq/hav/ directory within the Daytona_HAV pipeline folder. Placing data in other locations will cause program errors.***</mark>        
                       
-2. Open the file "params_hcv.yaml", and set the parameters absolute paths. They should be ".../.../fastqs/hav", ".../.../output", etc.
+2. Open the file "params_hav.yaml", and set the parameters absolute paths. They should be ".../.../fastqs/hav", ".../.../output", etc.
                       
 3. Get into the top directory of the pipeline and then run the following command.              
 ```bash
