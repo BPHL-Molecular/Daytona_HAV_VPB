@@ -114,8 +114,9 @@ The outputfile named as genotype_mutation.csv shows the HAV subtype and VP1-P2B 
 
 The phylogenetic tree of the test samples and 1773 HAV subtype references are generated in Auspice JSON v2 format and Newick format. For vivid visual effects and interaction with the tree diagram (see below), you may visualize the tree files online in auspice.us (https://auspice.us/). Also, two tree diagrams in SVG and PDF formats are generated for convenience.
 
-
-   <img width="1081" height="1052" alt="image" src="https://github.com/user-attachments/assets/9f743646-69f5-417a-af50-8f25d1167b29" />
+Figure 1. To show all test samples and references                      
+   <img width="1081" height="1052" alt="image" src="https://github.com/user-attachments/assets/9f743646-69f5-417a-af50-8f25d1167b29" />                  
+Figure 2. To show test samples only             
 <img width="1073" height="1010" alt="image" src="https://github.com/user-attachments/assets/83dd6856-8eed-4d9a-b7e0-6d85eb66233b" />
 
 
