@@ -120,7 +120,7 @@ The phylogenetic tree of the test samples and 1773 HAV subtype references are ge
 <img width="1073" height="1010" alt="image" src="https://github.com/user-attachments/assets/83dd6856-8eed-4d9a-b7e0-6d85eb66233b" />
 
 
-## Test data
+## Test data for HiPerGator users
 Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To use them, please copy them to the directory .../fastqs/hav/.    
 
 
