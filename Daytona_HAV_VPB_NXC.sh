@@ -12,7 +12,7 @@
 
 module load apptainer
 module load nextflow
-module load nextclade
+#module load nextclade
 
 APPTAINER_CACHEDIR=./
 export APPTAINER_CACHEDIR
@@ -44,4 +44,5 @@ mv ./*.out ./output
 mv ./*err ./output
 dt=$(date "+%Y%m%d%H%M%S")
 mv ./output ./output-$dt
-rm -r ./work
+rm -rf ./work
+rm -rf ./cache

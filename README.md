@@ -16,7 +16,6 @@ Python3 is needed. The packages "pandas" and "biopython" should be installed by 
 
 The Kraken2 database PlusPF is needed. For HiPerGator users, downloading is not needed. It has been downloaded and configured in the pipeline.
 
-Nextclade CLI is needed. The details of installation can be found at https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli/installation/index.html .  For HiPerGator users, the installation is not needed.
 
 ## Workflow
 ```mermaid
@@ -69,10 +68,10 @@ gitGraph
 
 ## Recommended conda environment installation
    ```bash
-   conda create -n HAV -c conda-forge python=3.10
+   conda create -n HAV_VPB -c conda-forge python=3.10
    ```
    ```bash
-   conda activate HAV
+   conda activate HAV_VPB
    ```
 
 
