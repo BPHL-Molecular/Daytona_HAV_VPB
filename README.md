@@ -127,4 +127,4 @@ Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To u
 If you want to report bugs, suggest enhancements, discuss ideas related to the project, please use the repository's "Issues" tab in GitHub.
 
 ## Note      
-If you want to get email notification when the pipeline running ends, please input your email address in the line "#SBATCH --mail-user=<EMAIL>" of Daytona_HAV.sh.  
+If you want to get email notification when the pipeline running ends, please input your email address in the line "#SBATCH --mail-user=<EMAIL>" of Daytona_HAV_VPB_NXC.sh.  
