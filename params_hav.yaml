@@ -1,7 +1,7 @@
 # The parameters "input", "output", and "reference" are the absolute paths. Do not include the "/" at the end of the paths.
-input          : "/<full path to Daytona_HCV>/fastqs/hav"
-output    : "/<full path to Daytona_HCV>/output"
-reference      : "/<full path to Daytona_HCV>/reference/hav"
+input          : "/<full path to Daytona_HAV_VPB>/fastqs/hav"
+output    : "/<full path to Daytona_HAV_VPB>/output"
+reference      : "/<full path to Daytona_HAV_VPB>/reference/hav"
 
 # specify if input amplicons were fragmented. If yes, the parameter setting is "frag". If no, the parameter setting is "no_frag". (default: frag)
 frag : "frag"

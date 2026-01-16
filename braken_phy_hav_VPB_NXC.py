@@ -39,7 +39,10 @@ os.system(f"sed -i 's/>Consensus_/>/g; s/\.consensus_threshold_.*//g' {current_d
 
 
 ### analyses test data (genotype, tree, mutations, etc.) by nextclade with its HAV reference dataset 
-os.system(f"nextclade run --include-reference --input-dataset={current_dir}/reference/ref_nextclade --input-ref={current_dir}/reference/ref_nextclade/reference.fasta --output-all={current_dir}/output/nextclade {current_dir}/output/extract/sum_consensus.fa")
+#os.system(f"nextclade run --include-reference --input-dataset={current_dir}/reference/ref_nextclade --input-ref={current_dir}/reference/ref_nextclade/reference.fasta --output-all={current_dir}/output/nextclade {current_dir}/output/extract/sum_consensus.fa")
+os.system(f"singularity exec docker://nextstrain/nextclade:3.18.1 nextclade run --include-reference --input-dataset={current_dir}/reference/ref_nextclade --input-ref={current_dir}/reference/ref_nextclade/reference.fasta --output-all={current_dir}/output/nextclade {current_dir}/output/extract/sum_consensus.fa")
+
+docker pull nextstrain/nextclade:3.18.1
 
 ### visualize tree
 os.system(f"singularity exec docker://staphb/phytreeviz:latest phytreeviz -i {current_dir}/output/nextclade/nextclade.nwk -o {current_dir}/output/tree_with_reference.svg --show_confidence")
