@@ -29,9 +29,7 @@ sed -i '1i sampleID\tspecies|tax_ID|percent(%)|number\treference\tstart\tend\tnu
 
 ##### The most dominant genotype is selected in each sample, and then a SNP-based phylogenetic tree is constructed
 mkdir ./output/extract
-#python ./braken_phy_hav.py
-#python ./braken_phy_hav_VPB.py
-python ./braken_phy_hav_VPB_NXC.py
+python ./braken_phy_hav_VPB_NXC_with_logging.py
 
 #### move tree relevant files to the folder tree
 mkdir ./output/trees
