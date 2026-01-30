@@ -537,22 +537,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
 
-- **Nextflow** team for the workflow framework
-- **Nextclade** developers for phylogenetic analysis tools
-- **Kraken2** team for taxonomic classification
-- All contributors and users of the pipeline
-
----
 
 <div align="center">
 
 **[⬆ Back to Top](#-daytona_hav_vpb)**
 
-Made with ❤️ by BPHL Molecular Biology Division
 
-![GitHub stars](https://img.shields.io/github/stars/BPHL-Molecular/Daytona_HAV_VPB?style=social)
-![GitHub forks](https://img.shields.io/github/forks/BPHL-Molecular/Daytona_HAV_VPB?style=social)
 
 </div>
