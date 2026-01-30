@@ -494,23 +494,7 @@ We welcome contributions! Here's how you can help:
 
 ---
 
-## 📧 Contact
 
-### Support Channels
-
-| Channel | Purpose | Response Time |
-|---------|---------|---------------|
-| **GitHub Issues** | Bug reports, feature requests | 1-3 business days |
-| **Email** | General inquiries | 2-5 business days |
-| **Documentation** | Self-service help | Immediate |
-
-### Project Team
-
-**Bureau of Public Health Laboratories - Molecular Biology Division**
-- Organization: BPHL-Molecular
-- Repository: [Daytona_HAV_VPB](https://github.com/BPHL-Molecular/Daytona_HAV_VPB)
-
----
 
 ## 📚 Citation
 
