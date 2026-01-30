@@ -235,10 +235,6 @@ input_dir: "/path/to/your/fastqs/hav"
 output_dir: "/path/to/your/output"
 reference_dir: "/path/to/reference"
 
-# Analysis parameters
-min_depth: 10
-min_quality: 20
-threads: 8
 ```
 
 ### Step 3: Run the Pipeline
